@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+
+@media only screen and (max-width: 413px) {
+  body {
+    width: 100%;
+  }
+}
